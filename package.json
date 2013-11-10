@@ -1,0 +1,31 @@
+{
+      "name"                        : "ee-retry"
+    , "description"                 : "Repeat some action in an exponential increased capped interval"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/ee-retry"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "os"                          : "linux"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/ee-retry.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/ee-retry/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "*"
+        , "ee-event-emitter"        : "*"
+        , "ee-types"                : "*"
+        , "ee-log"                  : "*"
+    }
+    , "devDependencies": {}
+    , "optionalDependencies": {}
+    , "keywords":                   [ "retry", "exponential" ]
+    , "scripts": {
+        "test"                      : "node test.js"
+    }
+}
