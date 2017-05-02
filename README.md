@@ -1,5 +1,7 @@
 # ee-retry
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-retry.svg)](https://greenkeeper.io/)
+
 Repeat some action in an exponential increased capped interval
 
 ## installation
